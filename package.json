@@ -1,0 +1,35 @@
+{
+  "name": "karma-sauce-reporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint src && karma start",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plasticine/karma-sauce-reporter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plasticine/karma-sauce-reporter/issues"
+  },
+  "homepage": "https://github.com/plasticine/karma-sauce-reporter",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "log-symbols": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel": "^4.7.8",
+    "babel-eslint": "^2.0.0",
+    "eslint": "^0.16.2",
+    "karma": "^0.12.31",
+    "karma-cli": "0.0.4",
+    "karma-mocha": "^0.1.10",
+    "karma-webpack": "^1.5.0",
+    "mocha": "^2.2.1",
+    "webpack": "^1.7.3"
+  }
+}
